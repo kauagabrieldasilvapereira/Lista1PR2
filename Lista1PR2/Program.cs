@@ -14,19 +14,19 @@ namespace Lista1PR2
 
             //        Programa1
 
-            //        int metro, mm, cm;
+            //int metro, mm, cm;
 
-            //        Console.WriteLine("Quantos metros : ");
-            //        metro = int.Parse(Console.ReadLine()); 
+            //Console.WriteLine("Quantos metros : ");
+            //metro = int.Parse(Console.ReadLine());
 
-            //        mm = metro * 1000;
-            //        cm = metro * 100;
+            //mm = metro * 1000;
+            //cm = metro * 100;
 
-            //        Console.WriteLine("São " + cm + " centimetros" );
-            //        Console.WriteLine("São " + mm + " milimetros"  );
+            //Console.WriteLine("São " + cm + " centimetros");
+            //Console.WriteLine("São " + mm + " milimetros");
 
 
-            //        Console.ReadKey();  
+            //Console.ReadKey();
 
 
 
@@ -109,7 +109,143 @@ namespace Lista1PR2
 
             //---------------------------------------------------------------------------------------------------------------
 
-            //Programa5
+            //Programa5 (Velocidade escalar média)
+
+            //float dist, temp, velo;
+
+            //Console.WriteLine("Qual a distancia ? ");
+            //dist = float.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Qual o tempo ? ");
+            //temp = float.Parse(Console.ReadLine());
+
+            //velo = dist / temp;
+
+            //Console.WriteLine("A sua velocidade é " + velo);
+            //Console.ReadKey();
+
+            //---------------------------------------------------------------------------------------------------------------
+
+            //Programa6
+
+            //float salario, result;
+
+            //Console.WriteLine("Qual o seu salario ? ");
+            //salario = float.Parse(Console.ReadLine());
+
+            //result = salario * 25 / 100 + salario;
+
+            // Console.WriteLine("O seu salario foi para " + result );
+
+            //Console.ReadKey();
+
+            //---------------------------------------------------------------------------------------------------------------
+
+            //Programa7
+
+            //float dolar, real, result;
+
+            //Console.WriteLine("Informe o valor em reais ");
+            //real = float.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Informe a cotação do dolar ");
+            //dolar = float.Parse(Console.ReadLine()); 
+
+            //result = real / dolar;
+
+            //Console.WriteLine("O valor em dolares é " + result);
+
+            //---------------------------------------------------------------------------------------------------------------
+
+            //Programa8
+
+            //int num1, result3,result1, result2;
+
+            //Console.WriteLine("Qual o numero ? ");
+            //num1 = int.Parse(Console.ReadLine());
+
+            //result1 = (num1 * 3) + 1;
+            //result2 = (num1 * 2) - 1;
+            //result3 = result1 + result2;
+
+            //Console.WriteLine("O valor final é " + result3);
+
+            //Console.ReadKey();  
+
+            //---------------------------------------------------------------------------------------------------------------
+
+            //Programa9
+
+            //Ex
+            //P-> 0 1 2 3
+            //V-> 9 8 7 6
+
+            //P-> 0 1 2 3 4
+            //V->M A R I A
+
+
+            //var num = "";
+            //do {
+            //    Console.WriteLine("Insira um numero de 4 digitos ");
+            //    num = Console.ReadLine();
+            //} while (num.Length != 4); //condicao
+
+            //for (var i = 0; i < num.Length; i++)
+
+            //    Console.WriteLine(num[i]);
+
+            //Console.ReadKey();
+
+            //---------------------------------------------------------------------------------------------------------------
+
+            //Programa10
+
+            //float invest = 1000,dia1,dia2,dia3;
+
+            //invest = invest - ((invest * 3.4f) / 100);
+            //invest = invest + ((invest * 2.8f) / 100);
+            //invest = invest + ((invest * 14f) / 100);
+            //invest = invest - ((invest * 8.5f) / 100);
+
+
+            //Console.WriteLine(invest);
+
+            //Console.ReadKey();  
+
+            //---------------------------------------------------------------------------------------------------------------
+
+            //Programa11
+
+            //float num, cubo, quad;
+
+            //Console.WriteLine("Informe um numero ");
+            //num = float.Parse(Console.ReadLine());
+
+            //quad = num * num;
+            //cubo = num * num * num;
+
+            //Console.WriteLine("Seu numero ao quadrado é " + quad );  
+            //Console.WriteLine("Seu numero ao quadrado é " + cubo);
+
+            //Console.ReadKey();
+
+            //---------------------------------------------------------------------------------------------------------------
+
+            //Programa12
+
+            //float h, pesoman, pesowoman;
+
+            //Console.WriteLine("Informe sua altura ");
+            //h = float.Parse(Console.ReadLine());
+
+            //pesoman = (72.7f * h) - 58f;
+            //pesowoman = (62.1f * h) - 44.7f;
+
+            //Console.WriteLine("Para um homem de altura " + h + " o peso ideal é " + pesoman);
+            //Console.WriteLine("Para uma muher de altura " + h + " o peso ideal é " + pesowoman);
+
+            //Console.ReadKey();
+
         }
     }
 }
