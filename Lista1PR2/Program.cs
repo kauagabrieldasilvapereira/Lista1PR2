@@ -246,6 +246,48 @@ namespace Lista1PR2
 
             //Console.ReadKey();
 
+            //--------------------------------------------------------------------------------------------------------------
+
+            //Github
+
+            //GitHub é uma plataforma para gerenciar seu código e criar um ambiente de colaboração entre devs, utilizando o Git como sistema de controle.
+            //Git
+
+            //Estes sistemas de controle possuem a função de registrar quaisquer alterações feitas em cima de um código, armazenando essas informações e permitindo que, caso seja necessário, um(a) programador(a) possa regredir a versões anteriores de uma aplicação de modo simples e rápido.
+            //Exemplos de Git
+
+            //Criar um novo banch e trocar
+            //git checkout -b bug-456
+
+            //Criar um stash
+            //git stash
+
+            //Iniciar pesquisa binaria
+            //git bisect start
+
+            //Comitar um arquivo
+            //git commit meu_arquivo.txt
+
+            //Setar e-mail
+            //git config --global user.email leonardo@software-ltda.com.br
+
+            //Adicionar arquivos
+            //git add .	
+
+            //Remover arquivo
+            //git rm meu_arquivo.txt
+
+            //Exibir historico
+            //git log
+
+            //Listar configuracoes 
+            //git config --list
+
+            //Criar um novo repositorio 
+            //git init
+
+
+
         }
     }
 }
