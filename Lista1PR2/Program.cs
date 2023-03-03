@@ -149,11 +149,13 @@ namespace Lista1PR2
             //real = float.Parse(Console.ReadLine());
 
             //Console.WriteLine("Informe a cotação do dolar ");
-            //dolar = float.Parse(Console.ReadLine()); 
+            //dolar = float.Parse(Console.ReadLine());
 
             //result = real / dolar;
 
             //Console.WriteLine("O valor em dolares é " + result);
+
+            //Console.ReadKey();
 
             //---------------------------------------------------------------------------------------------------------------
 
@@ -184,17 +186,18 @@ namespace Lista1PR2
             //V->M A R I A
 
 
-            //var num = "";
-            //do {
-            //    Console.WriteLine("Insira um numero de 4 digitos ");
-            //    num = Console.ReadLine();
-            //} while (num.Length != 4); //condicao
+            var num = "";
+            do
+            {
+                Console.WriteLine("Insira um numero de 4 digitos ");
+                num = Console.ReadLine();
+            } while (num.Length != 4); //condicao
 
-            //for (var i = 0; i < num.Length; i++)
+            for (var i = 0; i < num.Length; i++)
 
-            //    Console.WriteLine(num[i]);
+                Console.WriteLine(num[i]);
 
-            //Console.ReadKey();
+            Console.ReadKey();
 
             //---------------------------------------------------------------------------------------------------------------
 
